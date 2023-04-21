@@ -241,7 +241,7 @@ header
 .background-header {
   /* background: rgb(219,138,222) !important;
   background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important; */
-  background: #0a4f97!important;
+  background: #232323!important;
   opacity: 0.8;
   height: 80px!important;
   position: fixed!important;
@@ -901,6 +901,18 @@ section.simple-cta {
 
   /* filter: hue-rotate(-84deg); */
 }
+section.simple-ctaRe {
+  background-image: url(../images/Bannerpublicidad.jpg);
+  background-repeat: no-repeat;
+  background-position: initial center;
+  background-size: cover;
+  width: 100%;
+
+  /* padding: 220px 0px 300px 0px; */
+  padding: 50px 0px 300px 0px;
+
+  /* filter: hue-rotate(-84deg); */
+}
 
 section .left-image {
   margin-right: 45px;
@@ -920,6 +932,26 @@ section.simple-cta h4 {
 }
 
 section.simple-cta p {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+
+section.simple-ctaRe h6 {
+  font-size: 17px;
+  color: #fff;
+}
+
+section.simple-ctaRe h4 {
+  font-size: 62px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 74px;
+  margin-top: 20px;
+}
+
+section.simple-ctaRe p {
   color: #fff;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -1730,6 +1762,10 @@ body {
     background-size: cover;
     /* background-size: contain; */
   }
+  section.simple-ctaRe {
+    background-size: cover;
+    /* background-size: contain; */
+  }
   .services .owl-nav .owl-next{
     right: -70px;
   }
@@ -1822,7 +1858,14 @@ body {
   section.simple-cta {
     margin-top: 0px;
   }
+  section.simple-ctaRe {
+    margin-top: 0px;
+  }
   section.simple-cta .left-image {
+    margin-right: 0px;
+    margin-bottom: 45px;
+  }
+  section.simple-ctaRe .left-image {
     margin-right: 0px;
     margin-bottom: 45px;
   }
@@ -2080,6 +2123,17 @@ body {
   /** BARRA TIPO APP EN RESPONSIVE**/
 
   section.simple-cta {
+    background-image: url(../images/banner-inferior-resp.jpg)!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    /* padding: 180px 0px 180px 0px; */
+    padding: 220px 0px 300px 0px;
+  
+    /* filter: hue-rotate(-84deg); */
+  }
+  section.simple-ctaRe {
     background-image: url(../images/banner-inferior-resp.jpg)!important;
     background-repeat: no-repeat;
     background-position: center center;

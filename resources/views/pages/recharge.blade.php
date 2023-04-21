@@ -2,7 +2,7 @@
 @section('content')
 <section class="pricing bg-shape mt-0 circlu">
     <div class="container-fluid bg-secondary booking mb-1 mt-0 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container pbRecarga">
+        <div class="container">
         {{--  <div class="container pbRecarga">  --}}
             <div class="row gx-5">
                 <div class="pt-5 mb-6 mt-7">
@@ -79,11 +79,12 @@
       </div>
     </div>
   </section>
-  {{--  <section class="simple-cta mb-5">
+
+  <section class="simple-ctaRe mb-5">
     <div class="mt-4">
-      <h2 class="text-white style-text w900 m-5">Recarga desde tu celular</h2>
+      {{--  <h2 class="text-white style-text w900 m-5">Recarga desde tu celular</h2>  --}}
     </div>
-  </section>   --}}
+  </section>
 
   <section class="m-informacion">
     <div class="d-flex justify-content-lg-center">
