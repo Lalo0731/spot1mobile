@@ -153,7 +153,6 @@ body {
 }
 
 .style-text{
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 .w100 {
@@ -186,6 +185,11 @@ body {
 }
 .w900 {
   font-weight: 900;
+}
+
+
+.font90{
+  font-size: 90px;
 }
 
 .colorBlue{
@@ -193,11 +197,10 @@ body {
 }
 
 
-.style-text{
-  /* font-family: 'Montserrat', sans-serif; */
+/* .style-text{
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-}
-.w100 {
+} */
+/* .w100 {
   font-weight: 100;
 }
 .w200 {
@@ -227,7 +230,7 @@ body {
 }
 .w900 {
   font-weight: 900;
-}
+} */
 
 .colorBlue{
   color:#00498f!important;
@@ -511,6 +514,7 @@ body {
 }
 .img-wifi{
   width: 100%;
+  transform: rotate(-7deg);
 }
 
 .grid-wifi{
@@ -537,7 +541,7 @@ body {
   color: #6c757d;
 }
 .color-slogan{
-  color: #004a90;
+  color: #004a90!important;
 }
 .color-slogan2{
   color: #6d6b6c!important;
@@ -550,11 +554,12 @@ body {
   padding-left: 8rem;
 }
 .br-radiu{
+  color: #000!important;
   border-radius: 2rem;
   font-size: 1rem!important;
   text-transform: inherit!important;
-  background-color: #0148A3!important;
-  border-color: #0148A3!important;
+  background-color: #fff!important;
+  border-color: #fff!important;
 }
 .br-radiu:hover{
   background-color: transparent!important;
@@ -565,24 +570,24 @@ body {
   border-color: #fff!important;
 }
 .vr-paquete:hover{
-  background-color: #0148A3!important;
-  border-color: #0148A3!important;
+  background-color: #fff!important;
+  border-color: #fff!important;
 }
 .vr-paquete2{
   background-color: transparent!important;
   border-color: #fff!important;
 }
 .vr-paquete2:hover{
-  background-color: #0148A3!important;
-  border-color: #0148A3!important;
-  color: #fff!important;
+  background-color: #fff!important;
+  border-color: #fff!important;
+  color: #000!important;
 }
 .vr-paquete1:hover{
   color: #6d6b6c!important;
 }
 .vr-paquete:hover{
-  background-color: #0148A3!important;
-  border-color: #0148A3!important;
+  background-color: #fff!important;
+  border-color: #fff!important;
 }
 .btn-contratar{
   background-color: #003cea;
@@ -623,6 +628,20 @@ body {
    font-size: 1rem;
 }
 
+.texto-spot1mobile{
+  background-color: yellow; 
+  color: black; 
+  padding: 0.1rem;
+  /* width: 150px;
+  
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -ms-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  transform: skew(-18deg);
+  display: inline-table; */
+}
+
 @media (max-width: 767px){
   .opps {
     width: 340px;
@@ -644,6 +663,10 @@ body {
   font-size: 4rem!important;
 }
 
+.font-50{
+  font-size: 50px;
+}
+
 .img-mision{
   width: 2rem;
 }
@@ -651,7 +674,8 @@ body {
 .hr{
   border: none;
   border-left: 1px solid hsla(200, 10%, 50%,100)!important;
-  height: 40vh!important;
+  height: 55vh!important;
+  /* height: 40vh!important; */
   width: 1px!important;    
   margin-left: 2rem!important;
   margin-top: -1rem!important;
@@ -659,6 +683,16 @@ body {
 
 .z-index-2 {
   z-index: 2;
+}
+
+.mt-7{
+  margin-top: 7rem!important;
+}
+
+.img-logo-black{
+  float: right;
+  margin-top: -6rem;
+  width: 52%!important;
 }
 
 /* @media (max-width: 1400px){
@@ -1297,7 +1331,8 @@ a:hover {
 
 .section-title h2 {
   font-size: 48px;
-  color: #2c4c88;
+  /* color: #2c4c88; */
+  color: #383838;
   /* font-family: "Josefin Sans", sans-serif;
   font-weight: 500; */
   margin-bottom: 30px;

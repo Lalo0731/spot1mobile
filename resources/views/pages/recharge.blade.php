@@ -81,9 +81,26 @@
   </section>
 
   <section class="simple-ctaRe mb-5">
-    <div class="mt-4">
-      {{--  <h2 class="text-white style-text w900 m-5">Recarga desde tu celular</h2>  --}}
-    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="{{asset('images/wifi.png')}}" alt="Banner secundario" class="img-wifi w-50 p-4">
+        </div>
+        <div class="col-8 mt-7">
+            <div class="img-logo-black">
+                <img src="{{asset('images/logo-black.png')}}" alt="Banner secundario" class="w-50">
+            </div>
+            <div>
+                <h2 class="text-white style-text w900 m-5 text-end text-break">Conoce y contrata el mejor servicio de internet en casa</h2>
+            </div>
+        </div>
+      </div>
+
+
+    {{--  <div class="mt-4">
+      <h2 class="text-white style-text w900 m-5 text-end text-break">Conoce y contrata el mejor servicio de internet en casa</h2>
+    </div>  --}}
+
+    
   </section>
 
   <section class="m-informacion">

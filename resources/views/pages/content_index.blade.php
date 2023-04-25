@@ -11,14 +11,12 @@
     <div class="carousel-inner mt5">
       <div class="carousel-item active position-relative d-inline-block" data-bs-interval="4000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto ">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</h1>
+          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -39,14 +37,12 @@
 
       <div class="carousel-item" data-bs-interval="5000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 color-slogan2 h4 hmd col-5 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="color-slogan2 h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responsivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 color-slogan2 h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="color-slogan2 h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</h1>
+            <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -67,14 +63,12 @@
 
       <div class="carousel-item" data-bs-interval="4000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="color-slogan text-white col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="color-slogan mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="color-slogan text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responsivo  --}}
-          <h1 class="color-slogan text-white col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</h1>
+            <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -109,11 +103,11 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <div class="header-text mt-5 mb-3">
-              <h3 class="Morganite-Book display-3">Conócenos</em></h3>
+            <div class="header-text mt-5">
+              <h3 class="Morganite-Book display-3 color-slogan">Conócenos</em></h3>
             </div>
             <div class="header-text mb-n3">
-              <h2 class="Morganite-BoldItalic display-1 font-h4">La empresa de <em>telefonía móvil</em> más social de México</h2>
+              <h2 class="Morganite-BoldItalic display-1 font-h4 text-uppercase">Descubre la nueva empresa de <em>telefonía en México</em></h2>
             </div>
           </div>
         </div>     
@@ -126,20 +120,26 @@
         <div class="col-7">
           <div>
             <div class="d-flex flex-row">
-              <h4>Misión</h4>
+              <h4 class="w600 color-slogan">Misión</h4>
               <img src="{{asset('images/icono-mision.svg')}}" class="img-mision" alt="Imagen Misión">
             </div>
             <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam reprehenderit laudantium debitis consequuntur qui similique enim eius error vel</p>
+              <p class="style-text w400">
+                Lograr ser un referente en el ambiente de las telecomunicaciones, brindando soluciones tecnológicas a nuestros clientes, buscando ofrecer
+                La mejor conectividad y calidad  en el servicio.
+              </p>
             </div>
           </div>
           <div class="mt-5">
             <div class="d-flex flex-row">
-              <h4>Visión</h4>
+              <h4 class="w600 color-slogan">Visión</h4>
               <img src="{{asset('images/icono-vision.svg')}}" class="img-mision" alt="Imagen Visión">
             </div>
             <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, et exercitationem molestias ducimus obcaecati cum magni nesciunt provident dolor? Molestiae velit ad, illo tenetur doloremque sint laboriosam enim fugit incidunt.</p>
+              <p class="style-text w400">
+                Situarnos como una empresa líder en el ramo de las telecomunicaciones, con el compromiso de ofrecer productos y servicios con las más alta calidad,
+                buscando siempre como objetivo principal, la satisfacción de todos nuestros clientes.
+              </p>
             </div>
           </div>
         </div>
@@ -148,13 +148,18 @@
         </div>
         <div class="col-sm">
           <div>
-            <h4>Valores</h4>
+            <h4 class="w600 color-slogan">Valores</h4>
             <ul class="list-group mt-2">
-              <li class="p-1"><i class="fa-solid fa-arrow-right p-1"></i>Cras justo odio</li>
-              <li class="p-1"><i class="fa-solid fa-arrow-right p-1"></i>Dapibus ac facilisis in</li>
-              <li class="p-1"><i class="fa-solid fa-arrow-right p-1"></i>Morbi leo risus</li>
-              <li class="p-1"><i class="fa-solid fa-arrow-right p-1"></i>Porta ac consectetur ac</li>
-              <li class="p-1"><i class="fa-solid fa-arrow-right p-1"></i>Vestibulum at eros</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Servicio</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Profesionalismo</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Orientación al cliente</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Trabajo en equipo</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Mejora continua</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Objetividad</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Buen humor</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Integridad</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Lealtad</li>
+              <li class="p-1 style-text w400"><i class="fa-solid fa-arrow-right p-1"></i>Excelencia</li>
             </ul>
           </div>
         </div>
