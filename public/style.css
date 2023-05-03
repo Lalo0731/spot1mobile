@@ -192,6 +192,14 @@ body {
   font-size: 90px;
 }
 
+.font137{
+  font-size: 137px;
+}
+
+.ml-2{
+  margin-left: 2rem;
+}
+
 .colorBlue{
   color:#00498f!important;
 }
@@ -550,6 +558,9 @@ body {
 .mt-14{
   top: 14rem;
 }
+.mt-20{
+  margin-top: 20rem;
+}
 .pl-8{
   padding-left: 8rem;
 }
@@ -606,8 +617,21 @@ body {
 .w-40{
   width: 40%;
 }
+.w-30{
+  width: 30%;
+}
 .color-text-planes{
   color: #0c498e;
+}
+
+.mt-l3{
+  margin-top: -3rem;
+}
+.w-20{
+  width: 20%;
+}
+.ml-5{
+  margin-left: 5rem;
 }
 
 .spt-nav{

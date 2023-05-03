@@ -897,7 +897,8 @@ section.simple-cta {
   background-size: cover;
   width: 100%;
   /* padding: 180px 0px 180px 0px; */
-  padding: 220px 0px 300px 0px;
+  /* padding: 220px 0px 300px 0px; */
+  padding: 60px 0px 260px 0px;
 
   /* filter: hue-rotate(-84deg); */
 }
@@ -1929,7 +1930,7 @@ body {
     margin-bottom: 60px;
   }
   .header-area {
-    background: #0a4f97!important;
+    background: #232323!important;
   }
 
 }
@@ -2052,7 +2053,7 @@ body {
     grid-area: tabbar;
     display: flex;
     width: 100%;
-    background-color: #0a4f97;
+    background-color: #232323;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -2123,7 +2124,7 @@ body {
   /** BARRA TIPO APP EN RESPONSIVE**/
 
   section.simple-cta {
-    background-image: url(../images/banner-inferior-resp.jpg)!important;
+    background-image: url(../images/footer-secunadrio.jpg)!important;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

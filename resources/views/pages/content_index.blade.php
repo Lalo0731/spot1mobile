@@ -15,7 +15,7 @@
           <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto ">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</h1>
+          <h1 class="text-white font90 Morganite-BoldItalic w900 col-11 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
           <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
@@ -41,7 +41,7 @@
           <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responsivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</h1>
+          <h1 class="text-white col-11 font90 Morganite-BoldItalic w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
             <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
@@ -67,7 +67,7 @@
           <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responsivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</h1>
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
             <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
@@ -494,8 +494,11 @@
   </section>
 
   <section class="simple-cta mb-5">
-    <div class="mt-4">
-      <h2 class="text-white style-text w900 m-5">Recarga desde tu celular</h2>
+    <div class="mt-4 ml-2">
+      <h2 class="text-white style-text Morganite-BoldItalic font137 w900 m-5 text-uppercase col-4">Recarga desde tu celular</h2>
+    </div>
+    <div class="ml-5 mt-l3">
+      <button class="btn btn-contratar mt-4 w-20 text-center" type="button"><span class="span-contratar w800 style-text">Contratar</span> </button>
     </div>
   </section> 
 
