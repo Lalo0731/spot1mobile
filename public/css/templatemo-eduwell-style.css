@@ -2032,6 +2032,30 @@ body {
   .color-slogan{
     font-size: 2rem;
   }
+  .font-conocenos{
+    font-size: 3rem;
+  }
+  .mt-valores{
+    margin-top: 3rem;
+  }
+  .col-responsive{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .w-34{
+    width: 34%!important;
+  }
+  .font50{
+    font-size: 50px!important;
+  }
+  .ml-0{
+    margin-left: 0rem!important;
+  }
+  .col-responsive7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
   .hmd{
     font-size: 0.6rem;
     margin-top: 0.5rem !important;
@@ -2129,8 +2153,8 @@ body {
     background-position: center center;
     background-size: cover;
     width: 100%;
-    /* padding: 180px 0px 180px 0px; */
-    padding: 220px 0px 300px 0px;
+    padding: 180px 0px 180px 0px!important;
+    /* padding: 220px 0px 300px 0px; */
   
     /* filter: hue-rotate(-84deg); */
   }

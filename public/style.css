@@ -551,6 +551,9 @@ body {
 .color-slogan{
   color: #004a90!important;
 }
+.color-conocenos{
+  color: #004a90!important;
+}
 .color-slogan2{
   color: #6d6b6c!important;
 }
@@ -613,6 +616,10 @@ body {
 .btn-contratar {
 	box-shadow: 0 0 0 1px #003cea inset, 0 0 0 2px rgba(255, 255, 255, 40) inset, 0 5px 2px 0 #034c89, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
 	background-color: #003cea;
+}
+.btn-contratar:hover {
+	box-shadow: 0 0 0 1px #003cea inset, 0 0 0 2px rgba(255, 255, 255, 40) inset, 0 5px 2px 0 #034c89, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #003cea99;
 }
 .w-40{
   width: 40%;

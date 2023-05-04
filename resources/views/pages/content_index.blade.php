@@ -104,7 +104,7 @@
         <div class="col-12">
           <div class="section-title">
             <div class="header-text mt-5">
-              <h3 class="Morganite-Book display-3 color-slogan">Conócenos</em></h3>
+              <h3 class="Morganite-Book display-3 color-conocenos font-conocenos">Conócenos</em></h3>
             </div>
             <div class="header-text mb-n3">
               <h2 class="Morganite-BoldItalic display-1 font-h4 text-uppercase">Descubre la nueva empresa de <em>telefonía en México</em></h2>
@@ -117,7 +117,7 @@
   <section class="pricing bg-shape">
     <div class="container">
       <div class="row">
-        <div class="col-7">
+        <div class="col-7 col-responsive">
           <div>
             <div class="d-flex flex-row">
               <h4 class="w600 color-slogan">Misión</h4>
@@ -143,10 +143,10 @@
             </div>
           </div>
         </div>
-        <div class="col-1 ">
+        <div class="col-1 d-none d-sm-block">
           <hr class="hr">
         </div>
-        <div class="col-sm">
+        <div class="col-sm mt-valores">
           <div>
             <h4 class="w600 color-slogan">Valores</h4>
             <ul class="list-group mt-2">
@@ -494,11 +494,11 @@
   </section>
 
   <section class="simple-cta mb-5">
-    <div class="mt-4 ml-2">
-      <h2 class="text-white style-text Morganite-BoldItalic font137 w900 m-5 text-uppercase col-4">Recarga desde tu celular</h2>
+    <div class="mt-4 ml-2 ml-0">
+      <h2 class="text-white style-text Morganite-BoldItalic font137 font50 w900 m-5 text-uppercase col-4 col-responsive7">Recarga desde tu celular</h2>
     </div>
     <div class="ml-5 mt-l3">
-      <button class="btn btn-contratar mt-4 w-20 text-center" type="button"><span class="span-contratar w800 style-text">Contratar</span> </button>
+      <button class="btn btn-contratar mt-4 w-20 text-center w-34" type="button"><span class="span-contratar w800 style-text">Contratar</span> </button>
     </div>
   </section> 
 
