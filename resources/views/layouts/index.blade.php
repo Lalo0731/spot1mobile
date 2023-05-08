@@ -98,7 +98,7 @@ https://templatemo.com/tm-573-eduwell
               </li>
             </ul>
           </div>  --}}
-          <div class="col-md-3 col-lg-4 pl-lg-5 mb-4 mb-md-0 col p-4">
+          <div class="col-md-3 col-lg-4 pl-lg-5 mb-4 mb-md-0 col p-4 col-md-foot-3">
             <h2 class="footer-heading text-uppercase h4 text-white style-text w700">Contáctanos</h2>
             <hr class="hr-enlaces">
             <ul class="list-unstyled">
@@ -111,7 +111,7 @@ https://templatemo.com/tm-573-eduwell
                 <li><p class="text-white style-text w600"><i class="fa-solid fa-map-location p-2"></i>C. José María Bear Alva 2514 col. Barrio de Londres Chihuahua, Chihuahua. C.P. 31060</p></li>
             </ul>
           </div>
-          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5">
+          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5 col-m-foot-6">
             <ul class="list-unstyled">
               <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Inicio</a></li>
               <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Recargas</a></li>
@@ -119,7 +119,7 @@ https://templatemo.com/tm-573-eduwell
             </ul>
           </div>
 
-          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5">
+          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5 col-m-foot-6">
             <ul class="list-unstyled">
               <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Legales</a></li>
               <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Covertura</a></li>
@@ -139,7 +139,7 @@ https://templatemo.com/tm-573-eduwell
   </footer>
 
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
-  <nav class="tabbar d-xl-none h-3">
+  <nav class="tabbar d-xl-none h-3 d-md-none d-lg-block d-lg-none d-xl-block d-xl-none">
     <div>
       <a href="/">
         <i class="fa-solid fa-house spt-nav"></i>

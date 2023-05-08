@@ -11,12 +11,12 @@
     <div class="carousel-inner mt5">
       <div class="carousel-item active position-relative d-inline-block" data-bs-interval="4000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
-          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto ">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
+          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase d-sm-none d-md-block">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responivo  --}}
-          <h1 class="text-white font90 Morganite-BoldItalic w900 col-11 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
-          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
+          <h1 class="text-white font90 Morganite-BoldItalic w900 col-11 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block  mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
+          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block ">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -29,20 +29,20 @@
           </div>
         </div>
         
-        <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen1">
+        <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100 d-none d-sm-block d-sm-none d-md-block mt-6" alt="imagen1">
         {{--  Responsivo  --}}
-        <img src="{{asset('images/Banner-respon.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen1">
+        <img src="{{asset('images/Banner-respon.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block " alt="imagen1">
         {{--  Responsivo  --}}
       </div>
 
       <div class="carousel-item" data-bs-interval="5000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
-          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
+          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase d-sm-none d-md-block">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responsivo  --}}
-          <h1 class="text-white col-11 font90 Morganite-BoldItalic w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
-            <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
+          <h1 class="text-white col-11 font90 Morganite-BoldItalic w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block  mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
+            <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block ">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -55,20 +55,20 @@
           </div>
         </div>
         
-        <img src="{{asset('images/Banner-secundario.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen2">
+        <img src="{{asset('images/Banner-secundario.jpg')}}" class="d-block w-100 d-none d-sm-block d-sm-none d-md-block mt-6" alt="imagen2">
         {{--  Responsivo  --}}
-        <img src="{{asset('images/Banner-respon2.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen2">
+        <img src="{{asset('images/Banner-respon2.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block " alt="imagen2">
         {{--  Responsivo  --}}
       </div>
 
       <div class="carousel-item" data-bs-interval="4000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
-          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
+          <h1 class="text-white col-4 style-text d-none d-sm-block pri-texto Morganite-BoldItalic w900 font90 text-uppercase d-sm-none d-md-block">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile">spot1mobile.</span></h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
 
           {{--  Responsivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
-            <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
+          <h1 class="text-white col-11 font90 Morganite-BoldItalic w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block  mt-20 text-center">Cámbiate a lo de hoy cámbiate a <span class="texto-spot1mobile p-0">spot1mobile.</h1>
+          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block ">Cámbiate y disfruta de los paquetes que tenemos para ti, disfruta de comunicarte, tus juegos y series favoritas, todo desde tu celular.</p>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -81,9 +81,9 @@
           </div>
         </div>
 
-        <img src="{{asset('images/Banner-terciario.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen3">
+        <img src="{{asset('images/Banner-terciario.jpg')}}" class="d-block w-100 d-none d-sm-block d-sm-none d-md-block mt-6" alt="imagen3">
         {{--  Responsivo  --}}
-        <img src="{{asset('images/Banner-respon3.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen3">
+        <img src="{{asset('images/Banner-respon3.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block " alt="imagen3">
         {{--  Responsivo  --}}
       </div>
     </div>
@@ -498,7 +498,7 @@
       <h2 class="text-white style-text Morganite-BoldItalic font137 font50 w900 m-5 text-uppercase col-4 col-responsive7">Recarga desde tu celular</h2>
     </div>
     <div class="ml-5 mt-l3">
-      <button class="btn btn-contratar mt-4 w-20 text-center w-34" type="button"><span class="span-contratar w800 style-text">Contratar</span> </button>
+      <button class="btn btn-contratar mt-4 w-20 w-29 text-center w-34" type="button"><span class="span-contratar w800 style-text">Contratar</span> </button>
     </div>
   </section> 
 

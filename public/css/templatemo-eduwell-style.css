@@ -580,14 +580,17 @@ header
     top: 8rem!important;
   }
   .pri-texto{
-    font-size: 30px!important;
+    /* font-size: 30px!important; */
+    font-size: 60px!important;
   }
   .cont-texto{
-    font-size: 11px!important;
+    /* font-size: 11px!important; */
+    font-size: 13px!important;;
   }
   .spt-texto{
     font-size: 20px!important;
   }
+  
 }
 
 
@@ -1842,6 +1845,11 @@ body {
   .header-area {
     background: #0a4f97!important;
   }
+
+  .mt-6 {
+    margin-top: 6rem;
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -1931,6 +1939,31 @@ body {
   }
   .header-area {
     background: #232323!important;
+  }
+
+  .mt-6{
+    margin-top: 6rem;
+  }
+  .header-area .main-nav .nav {
+    margin-top: 30px!important;
+  }
+
+  .col-md-foot-3 {
+    flex: 0 0 auto;
+    width: 36%;
+  }
+
+  .col-m-foot-6 {
+    flex: 0 0 auto;
+    width: 29%;
+  }
+
+  .w-29 {
+    width: 29%!important;
+  }
+
+  .pri-texto{
+    font-size: 40px;
   }
 
 }
@@ -2182,6 +2215,18 @@ body {
 
   .text-ingre{
     font-size: 12px!important;
+  }
+
+  .font45{
+    font-size: 45px!important;
+  }
+
+  .font11{
+    font-size: 11px!important;
+  }
+
+  .mtR-1{
+    margin-top: 1rem!important;
   }
 
   /**LALO**/
