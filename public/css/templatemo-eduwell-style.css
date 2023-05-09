@@ -2013,6 +2013,30 @@ body {
     font-size: 40px;
   }
 
+  .top-img{
+    top: 13rem;
+  }
+  .left-img{
+    left: 13rem;
+  }
+  .w-40 {
+    width: 35%!important;
+  }
+  .texto-conoce{
+    font-size: 22px;
+    margin-top: -5rem!important;
+    margin-left: 13rem!important;
+  }
+  .text-end {
+    text-align: left!important;
+  }
+  .img-logo-black {
+    margin-top: -10rem!important;
+  }
+  .img-wifi {
+    width: 68%!important;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -2250,7 +2274,7 @@ body {
     /* filter: hue-rotate(-84deg); */
   }
   .booking {
-    background-image: url(../images/Banner-Recarga-resp.jpg)!important;
+    /* background-image: url(../images/Banner-Recarga-resp.jpg)!important; */
     background-repeat: no-repeat!important;
     background-position: right center!important;
     width: 100%;
@@ -2375,6 +2399,27 @@ body {
     height: 0px;
   }
 
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  section.circlu:after {
+    display: none;
+    /* background-image: url(../images/circulo-2.svg); */
+  }
+  .texto-conoce{
+    font-size: 30px;
+    margin-top: -10rem!important;
+    margin-left: 1rem!important;
+  }
+  .text-end {
+    text-align: left!important;
+  }
+  .img-logo-black {
+    margin-top: -14rem!important;
+    width: 68%!important;
+  }
+
 }
 
 @media (max-width: 575.98px) {
@@ -2393,5 +2438,25 @@ body {
   }
   .img-basico{
     width: 70%!important;
+  }
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  section.circlu:after {
+    display: none;
+    /* background-image: url(../images/circulo-2.svg); */
+  }
+  .texto-conoce{
+    font-size: 26px;
+    margin-top: -10rem!important;
+    margin-left: 1rem!important;
+  }
+  .text-end {
+    text-align: left!important;
+  }
+  .img-logo-black {
+    margin-top: -14rem!important;
+    width: 68%!important;
   }
 }

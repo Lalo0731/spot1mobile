@@ -50,8 +50,8 @@
                 </div>
                 <div class="col-lg-6 pt-5 "><!--py-5-->
                     {{--  <div class="py-5 mt-7">  --}}
-                    <div class="position-absolute z-index-2">
-                        <img src="{{asset('images/person.png')}}" alt="" class="w-75 mx-auto d-block">
+                    <div class="position-absolute z-index-2 d-none d-sm-block d-sm-none d-md-block top-img left-img">
+                        <img src="{{asset('images/person.png')}}" alt="" class="w-75 w-40 mx-auto d-block">
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
 
   <section class="simple-ctaRe mb-5">
     <div class="row">
-        <div class="col-4">
+        <div class="col-4 d-none d-sm-block d-sm-none d-md-block">
             <img src="{{asset('images/wifi.png')}}" alt="Banner secundario" class="img-wifi w-50 p-4">
         </div>
         <div class="col-8 mt-7">
@@ -90,7 +90,7 @@
                 <img src="{{asset('images/logo-black.png')}}" alt="Banner secundario" class="w-50">
             </div>
             <div>
-                <h2 class="text-white style-text w900 m-5 text-end text-break">Conoce y contrata el mejor servicio de internet en casa</h2>
+                <h2 class="text-white style-text w900 m-5 text-end text-break texto-conoce">Conoce y contrata el mejor servicio de internet en casa</h2>
             </div>
         </div>
       </div>
