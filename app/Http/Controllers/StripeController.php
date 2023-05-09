@@ -11,7 +11,10 @@ class StripeController extends Controller
 {
  
     public function paymentStripe(Request $request){    
-        Stripe::setApiKey('sk_test_51LSOeLHo1IBUssic5KrB04Ctcopm1hMonpXVSSpA1nsra065fH7ESFzQIAyxGd15xUWmQQGo85RK9I8b2qCJhEdS00Yw3KRA31');        
+        //produccion
+        // Stripe::setApiKey('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');  
+        //test      
+        Stripe::setApiKey('sk_test_51Mkc0gGMWTI2WWEaCdZtgx0iqDEbUSp01eOqt6nol3T1DD2bxMhDqaZIY39J3u6i3ipbu4TMH4oCYZY00raANEPe00Cqk3wH07');        
 
         $amount = $request->amount;
         $offer_id = $request->offer_id;

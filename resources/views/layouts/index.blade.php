@@ -57,7 +57,7 @@ https://templatemo.com/tm-573-eduwell
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="/" class="logo respont-logo">
-                        <img class="w-50" src="{{asset('images/icono-while.svg')}}" alt="spot1mobile" class="img-logo">
+                        <img class="w-50 mt-n1 ms-3" src="{{asset('images/icono-while.svg')}}" alt="spot1mobile" class="img-logo">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->

@@ -257,8 +257,8 @@ header
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  height: 110px;
-  /* height: 97px; */
+  height: 84px;
+  /* height: 110px; */
   top: 0;
   left: 0;
   right: 0;
@@ -1725,9 +1725,37 @@ body {
   background-size: cover; */
 }
 
+/* @media (max-width: 1920px) {
+  .ms-3 {
+    margin-left: 7rem!important;
+  }
+  .mt-n1{
+    margin-top: -1rem;
+  }
+  .header-area .main-nav .nav {
+    margin-right: 5rem;
+}
+} */
+
+@media (mIN-width: 1399px) {
+  .ms-3 {
+    margin-left: 7rem!important;
+  }
+  .mt-n1{
+    margin-top: -1rem;
+  }
+  .header-area .main-nav .nav {
+    margin-right: 5rem;
+  }
+}
+
 @media (max-width: 1399px) {
   .header-area .nav {
-    margin-top: -64px!important;  
+    margin-top: 35px!important;  
+    /* margin-top: -64px!important;   */
+  }
+  .mt-n1{
+    margin-top: -1rem;
   }
 }
 
@@ -1745,8 +1773,13 @@ body {
     left: -25px;
   }
   .header-area .nav {
-    margin-top: -64px!important;
+    /* margin-top: -64px!important; */
+    margin-top: 35px!important;
   }
+  .mt-n1{
+    margin-top: -1rem;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -1792,16 +1825,26 @@ body {
     display: none;
   }
   .header-area {
-    background: #0a4f97!important;
+    background: #232323!important;
   }
   .header-area .nav {
     margin-top: 35px!important;
-}
+  }
+  .mt-6 {
+    margin-top: 5rem;
+  }
 }
 
 @media (max-width: 1199px) {
   .header-area .nav {
-    margin-top: -64px!important;
+    margin-top: 35px!important;
+    /* margin-top: -64px!important; */
+  }
+  .header-area {
+    background: #232323!important;
+  }
+  .mt-6 {
+    margin-top: 5rem;
   }
 }
 
@@ -1819,13 +1862,17 @@ body {
     left: -25px;
   }
   .header-area {
-    background: #0a4f97!important;
+    background: #232323!important;
   }
   .header-area .main-nav .nav {
     margin-top: -64px;
   }
   .header-area .nav {
-    margin-top: -64px!important;
+    margin-top: 35px!important;
+    /* margin-top: -64px!important; */
+  }
+  .mt-6 {
+    margin-top: 5rem;
   }
 }
 
@@ -1843,11 +1890,11 @@ body {
     display: none;
   }
   .header-area {
-    background: #0a4f97!important;
+    background: #232323!important;
   }
 
   .mt-6 {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
 
 }
@@ -1942,7 +1989,7 @@ body {
   }
 
   .mt-6{
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
   .header-area .main-nav .nav {
     margin-top: 30px!important;

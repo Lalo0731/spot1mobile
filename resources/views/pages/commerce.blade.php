@@ -431,7 +431,10 @@
 </script>
 
 <script>
-  var stripe = Stripe("pk_test_51LSOeLHo1IBUssicXykLFSmTFiGPSgAnyRNa0gIDm1kpOLM5sPhBvQVO1i6fM8bBFIeENiwa6Jmwnl4ZVVNpYYfC00gX1UKXkL");
+  //test
+  var stripe = Stripe("pk_test_51Mkc0gGMWTI2WWEaqQSvctap0Y9WIZV8qTBwRcG3DkrzioRooS0kSOgM0IK2DwRCsGcVbgWIUYvfwOJpqQADcwju00kVKfBD6I");
+  //produccion
+  // var stripe = Stripe("pk_live_51Mkc0gGMWTI2WWEadusfXBlo0Lp51r63U24p3eBW9S1StsVxWJE7hWU4vHy4oU7PFEBjTeqduTGn6MZ9im9p99aB00I58eQe4G");
   var elements = stripe.elements();
 
   var style = {
