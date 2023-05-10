@@ -83,14 +83,14 @@
   <section class="simple-ctaRe mb-5">
     <div class="row">
         <div class="col-4 d-none d-sm-block d-sm-none d-md-block">
-            <img src="{{asset('images/wifi.png')}}" alt="Banner secundario" class="img-wifi w-50 p-4">
+            <img src="{{asset('images/wifi.png')}}" alt="Banner secundario" class="img-wifi w-50 p-4 ml-5">
         </div>
         <div class="col-8 mt-7">
             <div class="img-logo-black">
-                <img src="{{asset('images/logo-black.png')}}" alt="Banner secundario" class="w-50">
+                <img src="{{asset('images/logo-black.png')}}" alt="Banner secundario" class="w-50 w-40">
             </div>
             <div>
-                <h2 class="text-white style-text w900 m-5 text-end text-break texto-conoce">Conoce y contrata el mejor servicio de internet en casa</h2>
+                <h2 class="text-white style-text w900 m-5 text-end text-break texto-conoce font-30 d-lg-none d-xl-block d-md-none d-lg-block">Conoce y contrata el mejor servicio de internet en casa</h2>
             </div>
         </div>
       </div>

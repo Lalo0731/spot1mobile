@@ -1737,7 +1737,7 @@ body {
 }
 } */
 
-@media (mIN-width: 1399px) {
+@media (min-width: 1400px) {
   .ms-3 {
     margin-left: 7rem!important;
   }
@@ -1746,6 +1746,18 @@ body {
   }
   .header-area .main-nav .nav {
     margin-right: 5rem;
+  }
+  .w-75 {
+    width: 75%!important;
+  }
+  .text-end {
+    text-align: left!important;
+  }
+  section.circlu:after {
+    right: 74px;
+  }
+  .header-area .main-nav .nav {
+    margin-right: 7rem;
   }
 }
 
@@ -1756,6 +1768,9 @@ body {
   }
   .mt-n1{
     margin-top: -1rem;
+  }
+  .header-area .main-nav .nav {
+    margin-right: 30px;
   }
 }
 
@@ -1775,6 +1790,9 @@ body {
   .header-area .nav {
     /* margin-top: -64px!important; */
     margin-top: 35px!important;
+  }
+  .header-area .main-nav .nav {
+    margin-right: 30px;
   }
   .mt-n1{
     margin-top: -1rem;
@@ -1846,6 +1864,17 @@ body {
   .mt-6 {
     margin-top: 5rem;
   }
+  .font-30{
+    font-size: 50px;
+  }
+
+  .ml-5{
+    margin-left: 5rem;
+  }
+
+  .img-wifi{
+    width: 65%!important;
+  }
 }
 
 @media (max-width: 1085px) {
@@ -1874,6 +1903,13 @@ body {
   .mt-6 {
     margin-top: 5rem;
   }
+  .font-30{
+    font-size: 30px;
+  }
+
+  .ml-5{
+    margin-left: 5rem;
+  }
 }
 
 @media (max-width: 1005px) {
@@ -1895,6 +1931,14 @@ body {
 
   .mt-6 {
     margin-top: 5rem;
+  }
+
+  .font-30{
+    font-size: 30px;
+  }
+
+  .ml-5{
+    margin-left: 5rem;
   }
 
 }
@@ -2023,8 +2067,11 @@ body {
     width: 35%!important;
   }
   .texto-conoce{
-    font-size: 22px;
+    /* font-size: 22px;
     margin-top: -5rem!important;
+    margin-left: 13rem!important; */
+    font-size: 21px;
+    margin-top: -4rem!important;
     margin-left: 13rem!important;
   }
   .text-end {
