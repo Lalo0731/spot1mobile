@@ -1759,6 +1759,9 @@ body {
   .header-area .main-nav .nav {
     margin-right: 7rem;
   }
+  .mt-14 {
+    top: 15rem!important;
+  }
 }
 
 @media (max-width: 1399px) {
@@ -1771,6 +1774,9 @@ body {
   }
   .header-area .main-nav .nav {
     margin-right: 30px;
+  }
+  .w-25{
+    width: 25%;
   }
 }
 

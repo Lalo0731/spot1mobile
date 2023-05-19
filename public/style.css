@@ -204,6 +204,18 @@ body {
   color:#00498f!important;
 }
 
+.b-rounded{
+  border-radius: 5rem;
+}
+.h-4{
+  height: 4rem;
+}
+.color-tarje{
+  color: #7f7f7f;
+}
+.color-tarje:hover{
+  color: #205dda;
+}
 
 /* .style-text{
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -242,6 +254,10 @@ body {
 
 .colorBlue{
   color:#00498f!important;
+}
+
+.color-tarjet{
+  color: #96b3db;
 }
 
 .mb-6{
@@ -353,7 +369,7 @@ body {
 
 .texto-principal{
     font-size: 2rem;
-    color: #203A43;
+    color: #205dda;
     /* text-transform: uppercase; */
 }
 
@@ -361,6 +377,10 @@ body {
   /* font-weight: bold; */
   color: #195ee2;
   /* font-style: italic; */
+}
+
+.texto-secundario{
+  color:#5d85cb;
 }
 
 .animate__animated.animate__rubberBand {
@@ -429,9 +449,9 @@ body {
   background-color: #fff;
   border-color: #074c8d!important;;
 }
-.img-rayo{
-  width: 89%;
-  /* margin-bottom: 1rem; */
+.img-precio1{
+  width: 100%;
+  margin-top: -7rem;
 }
 .section-heading__text{
   margin-left: -4rem;
@@ -440,9 +460,9 @@ body {
   margin-top: -6rem;
 }
 .tarjeta-paquete{
-  margin-left: 6rem; 
+  /* margin-left: 6rem;  */
   margin-bottom: -1rem;
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
 }
 .mes-paquete{
   margin-top: 2.5rem; 
@@ -471,6 +491,12 @@ body {
 .hr-basico{
   background-color: #2c68e3;
   height: 0.2rem!important;
+  width: 80%;
+  margin: auto;
+}
+.hr-line{
+  background-color: #7ba0ca;
+  height: 0.4rem!important;
   width: 80%;
   margin: auto;
 }
@@ -951,6 +977,10 @@ button.close {
 	/* z-index: -1; */
 } 
 
+.box-shad{
+  box-shadow: 12px 5px #2367e6;
+}
+
 
 /** FINAL MODAL CONEKTA**/
 
@@ -1122,6 +1152,11 @@ button.close {
       bottom: 200vh;
       opacity: 0;
   }
+}
+
+.col-lg-3{
+  flex: 0 0 auto;
+  width: 23%;
 }
 
 /*## ESTILOS DE LALO FIN##*/
@@ -1620,7 +1655,7 @@ a:hover {
   background: #7d71d3;
   color: #fff;
   text-transform: uppercase;
-  padding: 15px 40px;
+  padding: 7px 40px;
   border-radius: 100px;
 }
 
@@ -2177,7 +2212,7 @@ a:hover {
 
 .pricing-table {
   /* background: #fff; */
-  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1); */
   padding: 50px 0;
   margin-bottom: 80px;
   transition: all 400ms linear 0s;

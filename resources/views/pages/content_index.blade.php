@@ -21,10 +21,10 @@
 
           <div class="d-flex flex-row mt-n2">
             <div class="mt-5 p-3 ">
-              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w700 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
             </div>
             <div class="mt-5 p-3 ">
-              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w700 style-text" role="button" aria-pressed="true">Ver paquetes</a>
             </div>
           </div>
         </div>
@@ -47,10 +47,10 @@
 
           <div class="d-flex flex-row mt-n2">
             <div class="mt-5 p-3 ">
-              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete1 w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete1 w700 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
             </div>
             <div class="mt-5 p-3 ">
-              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete2 w400 style-text color-slogan2" role="button" aria-pressed="true">Ver paquetes</a>
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete2 w700 style-text color-slogan2" role="button" aria-pressed="true">Ver paquetes</a>
             </div>
           </div>
         </div>
@@ -73,10 +73,10 @@
 
           <div class="d-flex flex-row mt-n2">
             <div class="mt-5 p-3 ">
-              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w700 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
             </div>
             <div class="mt-5 p-3 ">
-              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w700 style-text" role="button" aria-pressed="true">Ver paquetes</a>
             </div>
           </div>
         </div>
@@ -216,47 +216,108 @@
     <div class="row" style="background-color: #c6e4ff; ">
       <div class="col-lg-12">
         <div class="d-flex justify-content-center">
-          <div class="rayo">
+          <!-- <div class="rayo">
             <img src="{{asset('images/Rayo.png')}}" alt="Imagen4" class="img-rayo">
-          </div>
+          </div> -->
           <div class="section-heading section-heading__text">
             <h2 class="mb-3 color-text-planes style-text w500">¡Tenemos los mejores planes!</h2>
             <h2><span class="texto-planes style-text w900">¡Obten el que más te guste!</span></h2>
           </div>
+          <div class="ml-5 bg-light w-25 b-rounded mt-3 h-4" >
+            <div class="mt-3 text-center">
+          <button type="button" class="btn btn-light color-tarje style-text w900 btn-hover text-capitalize">Promoción</button>
+          <button type="button" class="btn btn-light color-tarje style-text w900 text-capitalize text-capitalize">Prepago</button>
+          <button type="button" class="btn btn-light color-tarje style-text w900 text-capitalize text-capitalize">Pago Anticipado</button>
+          </div>
+            <!-- <h2 class="mb-3 color-text-planes style-text w500">¡Tenemos los mejores planes!</h2>
+            <h2><span class="texto-planes style-text w900">¡Obten el que más te guste!</span></h2> -->
+          </div>
         </div>
       </div>
       
-      <!-- <div class="d-flex justify-content-center">
-        <div class="col-lg-3 col-md-6 p-3">
-          <div class="pricing-table text-center feature_item font-color">
+      <hr class="hr-line mt-n2">
+      
+      <div class="d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 p-5">
+          <div class="pricing-table text-center feature_item font-color box-shad">
             <div class="title">
-              <h3 class="texto-principal style-text w500">Básico</h3>
+              <!-- <h3 class="texto-principal style-text w500">Básico</h3> -->
+              <img src="{{asset('images/Paquetes-03.png')}}" alt="Imagen4" class="img-precio1">
             </div>
 
-            <div class="price color-basico d-flex flex-row">
+            <div class="price  d-flex flex-row">
                 <div class="col-sm tarjeta-paquete">
-                  <img src="{{asset('images/280.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
+                  <!-- <img src="{{asset('images/280.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico"> -->
+                  <h3 class="texto-principal style-text w500 text-center style-text w900 ">MEGAS</h3>
+                  <h3 class="texto-secundario style-text w500 text-center style-text W700">por <span class="style-text w900 ">30 DÍAS</span> </h3>
                 </div>
-                <div class="col-sm mes-paquete">
+                <!-- <div class="col-sm mes-paquete">
                   <p class="color-priceB animate__animated animate__heartBeat animate__infinite style-text w400">/ Mes</p>
-                </div> 
+                </div>  -->
             </div>
 
-            <ul class="feature-list">
+            <hr class="hr-basico">
+
+            <div class="action-button">
+              <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB style-text w800">A TAN SOLO:</button>
+            </div>
+
+            <div class="mt-7">
+              <img src="{{asset('images/Paquetes-06.png')}}" alt="Imagen4" class="img-precio1 w-75">
+              <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compatición de datos*</p>
+            </div>
+
+            <!-- <ul class="feature-list">
               <li class="style-text w500">1 Mb Subida</li>
               <li class="style-text w500">5 Mb Bajada</li>
               <li class="style-text w500">Instalación GRATIS</li>
               <li class="resticciones style-text w200">* aplican restricciones</li>
               <hr class="hr-basico">
-            </ul>
-            <div class="action-button">
-              <a href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB style-text w800">¡Lo quiero!</a>
+            </ul> -->
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 p-5">
+          <div class="pricing-table text-center feature_item font-color box-shad">
+            <div class="title">
+              <!-- <h3 class="texto-principal style-text w500">Básico</h3> -->
+              <img src="{{asset('images/Paquetes-03.png')}}" alt="Imagen4" class="img-precio1">
             </div>
+
+            <div class="price  d-flex flex-row">
+                <div class="col-sm tarjeta-paquete">
+                  <!-- <img src="{{asset('images/280.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico"> -->
+                  <h3 class="texto-principal style-text w500 text-center style-text w900 ">MEGAS</h3>
+                  <h3 class="texto-secundario style-text w500 text-center style-text W700">por <span class="style-text w900 ">30 DÍAS</span> </h3>
+                </div>
+                <!-- <div class="col-sm mes-paquete">
+                  <p class="color-priceB animate__animated animate__heartBeat animate__infinite style-text w400">/ Mes</p>
+                </div>  -->
+            </div>
+
+            <hr class="hr-basico">
+
+            <div class="action-button">
+              <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB style-text w800">A TAN SOLO:</button>
+            </div>
+
+            <div class="mt-7">
+              <img src="{{asset('images/Paquetes-06.png')}}" alt="Imagen4" class="img-precio1 w-75">
+              <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compatición de datos*</p>
+            </div>
+
+            <!-- <ul class="feature-list">
+              <li class="style-text w500">1 Mb Subida</li>
+              <li class="style-text w500">5 Mb Bajada</li>
+              <li class="style-text w500">Instalación GRATIS</li>
+              <li class="resticciones style-text w200">* aplican restricciones</li>
+              <hr class="hr-basico">
+            </ul> -->
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 p-3">
-          <div class="pricing-table featured text-center font-color">
+          <div class="pricing-table featured text-center font-color box-shad">
             <div class="title">
               <h3 class="texto-principal style-text w500">Ideal</h3>
             </div>
@@ -284,7 +345,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 p-3">
-          <div class="pricing-table text-center feature_item font-color">
+          <div class="pricing-table text-center feature_item font-color box-shad">
             <div class="title">
               <h3 class="texto-principal style-text w500">Plus</h3>
             </div>
@@ -311,9 +372,9 @@
           </div>
         </div>
 
-      </div> -->
-
-      <!-- <div class="col-lg-12">
+      </div> 
+    <!-- 
+      <div class="col-lg-12">
         <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
           <div class="item">
             <div class="pricing-table text-center feature_item font-color">
@@ -400,11 +461,11 @@
           </div>
 
         </div>
-      </div> -->
+      </div>  
+    -->
 
-      <div class="row ps-5" style="justify-content: center;">
+      <!-- <div class="row ps-5" style="justify-content: center;">
         <div class="w-auto">
-        {{--  <div class="col-lg-4  col-md-6">  --}}
           <div class="pricing-table text-center feature_item font-color">
             <div class="title">
               <h3 class="texto-principal">Basico</h3>
@@ -433,7 +494,6 @@
         </div>
 
         <div class="w-auto">
-        {{--  <div class="col-lg-4  col-md-6">  --}}
           <div class="pricing-table featured text-center font-color">
             <div class="title">
               <h3 class="texto-principal">Ideal</h3>
@@ -462,7 +522,6 @@
         </div>
 
         <div class="w-auto">
-        {{--  <div class="col-lg-4  col-md-6">  --}}
           <div class="pricing-table text-center feature_item font-color">
             <div class="title">
               <h3 class="texto-principal">Plus</h3>
@@ -489,7 +548,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 
