@@ -260,6 +260,26 @@ body {
   color: #96b3db;
 }
 
+.color-tarjet2{
+  color: #77beba;
+}
+
+.color-tarjet3{
+  color: #3c6c52;
+}
+
+.color-redes{
+  color: #4779d0;
+}
+
+.h-1{
+  font-size: 0.8rem;
+}
+
+.color-terminos{
+  color: #295886;
+}
+
 .mb-6{
   margin-bottom: -6rem!important;
 }
@@ -361,6 +381,18 @@ body {
   background: linear-gradient(to left, #074c8d, #003fd6)!important;
 }
 
+.btn-priceB2{
+  background: #9beba4;
+  background: -webkit-linear-gradient(to left, #9beba4, #9beba4)!important;
+  background: linear-gradient(to left, #9beba4, #9beba4)!important;
+}
+
+.btn-priceB3{
+  background: #00c454;
+  background: -webkit-linear-gradient(to left, #00c454, #00c454)!important;
+  background: linear-gradient(to left, #00c454, #00c454)!important;
+}
+
 .btn-priceI{
   background: #007b45;
   background: -webkit-linear-gradient(to left, #007b45, #00b800)!important;
@@ -373,6 +405,18 @@ body {
     /* text-transform: uppercase; */
 }
 
+.texto-principalPlan2{
+    font-size: 2rem;
+    color: #0e6986;
+    /* text-transform: uppercase; */
+}
+
+.texto-principalPlan3{
+    font-size: 2rem;
+    color: #06c456;
+    /* text-transform: uppercase; */
+}
+
 .texto-planes{
   /* font-weight: bold; */
   color: #195ee2;
@@ -381,6 +425,14 @@ body {
 
 .texto-secundario{
   color:#5d85cb;
+}
+
+.texto-secundarioPlan2{
+  color:#4fc0ae;
+}
+
+.texto-secundarioPlan3{
+  color:#207c33;
 }
 
 .animate__animated.animate__rubberBand {
@@ -719,6 +771,9 @@ body {
 .font-h4{
   font-size: 4rem!important;
 }
+.h07{
+  font-size: 0.7rem;
+}
 
 .font-50{
   font-size: 50px;
@@ -979,6 +1034,14 @@ button.close {
 
 .box-shad{
   box-shadow: 12px 5px #2367e6;
+}
+
+.box-shadPlan2{
+  box-shadow: 12px 5px #116788;
+}
+
+.box-shadPlan3{
+  box-shadow: 12px 5px #207b35;
 }
 
 
