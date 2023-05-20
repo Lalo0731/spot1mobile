@@ -471,7 +471,7 @@
       <div class="d-flex justify-content-center" id="planes_tres">
         <div class="col-lg-3 col-md-6 p-5">
           <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
-            <span style="width: 100%; height: 5rem; position: absolute; background-color: red; bottom: 0; left: 0;">hola</span>
+            <span style="width: 100%; height: 4rem; position: absolute; background-color: #00C453; bottom: 0; left: 0; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;">hola</span>
             <div class="title">
               <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
             </div>
