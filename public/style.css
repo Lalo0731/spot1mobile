@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+
 /*## ESTILOS DE LALO INICIO##*/
 @font-face {
   font-family: Morganite-BlackItalic;
@@ -266,6 +267,62 @@ body {
 
 .color-tarjet3{
   color: #3c6c52;
+}
+
+.tarjet-text3{
+  width: 100%; 
+  height: 4rem; 
+  position: absolute; 
+  background-color: #00C453; 
+  bottom: 0; 
+  left: 0; 
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px;
+  color:#FFF;
+  font-size: 1.5rem;
+}
+
+.tarjet-text2{
+  width: 100%; 
+  height: 4rem; 
+  position: absolute; 
+  background-color: #44c5ae; 
+  bottom: 0; 
+  left: 0; 
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px;
+  color:#FFF;
+  font-size: 1.5rem;
+}
+
+.tarjet-text1{
+  width: 100%; 
+  height: 3.5rem; 
+  position: absolute; 
+  background-color: #0484ff; 
+  bottom: 0; 
+  left: 0; 
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px;
+  color:#FFF;
+  font-size: 1.5rem;
+}
+
+.tarjet-text{
+  width: 100%; 
+  height: 4rem; 
+  position: absolute; 
+  background-color: #0484ff; 
+  bottom: 0; 
+  left: 0; 
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px;
+  color:#FFF;
+  font-size: 1.5rem;
+}
+
+.activeTarj{
+  color: #4779d0!important;
 }
 
 .color-redes{
@@ -1222,9 +1279,9 @@ button.close {
   width: 23%;
 }
 
-#planes_uno{
+/* #planes_uno{
   display: none;
-}
+} */
 
 #planes_dos{
   display: none;
@@ -1233,6 +1290,8 @@ button.close {
 #planes_tres{
   display: none;
 }
+
+
 
 /*## ESTILOS DE LALO FIN##*/
 
