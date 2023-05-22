@@ -1222,6 +1222,18 @@ button.close {
   width: 23%;
 }
 
+#planes_uno{
+  display: none;
+}
+
+#planes_dos{
+  display: none;
+}
+
+#planes_tres{
+  display: none;
+}
+
 /*## ESTILOS DE LALO FIN##*/
 
 h1, h2, h3, h4, h5, h6 {
