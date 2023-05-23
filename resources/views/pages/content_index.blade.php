@@ -828,6 +828,108 @@
             <div class="swiper-slide">
               <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT 3M</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">3 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-12.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">NO PERMITE COMPARTICIÓN DE DATOS*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9  p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">6 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-14.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9  p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">6 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-16.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9  p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
                   <div class="title">
                     <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
@@ -1010,6 +1112,7 @@
             </div>
             
           </div>
+
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div> 
           <div class="swiper-pagination"></div>
