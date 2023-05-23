@@ -560,7 +560,9 @@ body {
 }
 .img-precio1{
   width: 100%;
-  margin-top: -7rem;
+  display: initial!important;
+  margin-top: -7rem; 
+  /* margin-top: -5.5rem; */
 }
 .section-heading__text{
   margin-left: -4rem;
@@ -1291,7 +1293,26 @@ button.close {
   display: none;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /*## ESTILOS DE LALO FIN##*/
 

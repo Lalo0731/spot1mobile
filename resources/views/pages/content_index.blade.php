@@ -233,7 +233,7 @@
       <hr class="hr-line mt-n2">
       
       <!-- PLANES #1 -->
-      <div id="planes_uno">
+      {{--  <div id="planes_uno">
         <div class="d-flex justify-content-center" id="planes_uno">
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
@@ -262,10 +262,9 @@
             </div>
           </div>
 
-          <!-- tARJETA#2 -->
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
-            |<span class="tarjet-text1 w900 style-text p-3">SPOT REDES 10D</span>
+              <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 10D</span>
               <div class="title">
                 <img src="{{asset('images/Paquetes-04.png')}}" alt="Imagen4" class="img-precio1">
               </div>
@@ -291,7 +290,6 @@
             </div>
           </div>
 
-          <!-- TARJETA#3 -->
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
               <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 20D</span>
@@ -320,67 +318,11 @@
             </div>
           </div>
 
-          <!-- <div class="col-lg-3 col-md-6 p-3">
-            <div class="pricing-table featured text-center font-color box-shad">
-              <div class="title">
-                <h3 class="texto-principal style-text w500">Ideal</h3>
-              </div>
-
-              <div class="price color-ideal d-flex flex-row">
-                <div class="col-sm tarjeta-paquete">
-                  <img src="{{asset('images/320.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
-                </div>
-                <div class="col-sm mes-paquete">
-                  <p class="color-priceB animate__animated animate__heartBeat animate__infinite style-text w400">/ Mes</p>
-                </div> 
-              </div>
-
-              <ul class="feature-list">
-                <li class="style-text w500">A2 Mb Subida</li>
-                <li class="style-text w500">10 Mb Bajada</li>
-                <li class="style-text w500">Instalación GRATIS</li>
-                <li class="resticciones style-text w200">* aplican restricciones</li>
-              </ul>
-              <hr class="hr-ideal">
-              <div class="action-button">
-                <a href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceI style-text w800">¡Lo quiero!</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 p-3">
-            <div class="pricing-table text-center feature_item font-color box-shad">
-              <div class="title">
-                <h3 class="texto-principal style-text w500">Plus</h3>
-              </div>
-
-              <div class="price color-plus d-flex flex-row">
-                <div class="col-sm tarjeta-paquete">
-                  <img src="{{asset('images/360.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
-                </div>
-                <div class="col-sm mes-paquete">
-                  <p class="color-priceB animate__animated animate__heartBeat animate__infinite style-text w400">/ Mes</p>
-                </div> 
-              </div>
-
-              <ul class="feature-list">
-                <li class="style-text w500">5 Mb Subida</li>
-                <li class="style-text w500">15 Mb Bajada</li>
-                <li class="style-text w500">Instalación GRATIS</li>
-                <li class="resticciones style-text w200">* aplican restricciones</li>
-              </ul>
-              <hr class="hr-plus">
-              <div class="action-button">
-                <a href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceP style-text w800">¡Lo quiero!</a>
-              </div>
-            </div>
-          </div> -->
-
         </div> 
-      </div>
+      </div>  --}}
 
       <!-- PLANES 2 -->
-      <div id="planes_dos">
+      {{--  <div id="planes_dos">
         <div class="d-flex justify-content-center">
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
@@ -414,7 +356,6 @@
             </div>
           </div>
 
-          <!-- tARJETA#2 -->
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
               <span class="tarjet-text2 w900 style-text p-3">SPOT  150</span>
@@ -442,7 +383,6 @@
             </div>
           </div>
 
-          <!-- TARJETA#3 -->
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
               <span class="tarjet-text2 w900 style-text p-3">SPOT  200</span>
@@ -475,10 +415,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>  --}}
 
       <!-- PLANES 3 -->
-      <div id="planes_tres">
+      {{--  <div id="planes_tres">
         <div class="d-flex justify-content-center" id="planes_tres">
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
@@ -507,7 +447,6 @@
             </div>
           </div>
 
-          <!-- tARJETA#2 -->
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
               <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 8000</span>
@@ -535,7 +474,6 @@
             </div>
           </div>
 
-          <!-- TARJETA#3 -->
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
               <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 20000</span>
@@ -568,7 +506,6 @@
             </div>
           </div>
 
-          <!-- TARJETA#4 -->
           <div class="col-lg-3 col-md-6 p-5">
             <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
               <span class="tarjet-text3 w900 style-text p-3">HOT-SPOT  12M 20000</span>
@@ -601,7 +538,479 @@
             </div>
           </div>
         </div>
+      </div>  --}}
+
+      <!-- Slider Planes 1-->
+      <div id="planes_uno">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
+                  <span class="tarjet-text w900 style-text p-3">SPOT 100</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-03.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principal style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundario style-text w500 text-center style-text W700">por <span class="style-text w900 ">30 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-06.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
+                  <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 10D</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-04.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principal style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundario style-text w500 text-center style-text W700">por <span class="style-text w900 ">10 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-07.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye <span class="color-redes">redes sociales</span></p>
+                    <p class="text-uppercase color-tarjet w600 h-1">No permite compartición de datos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
+                  <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 20D</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-05.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principal style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundario style-text w500 text-center style-text W700">por <span class="style-text w900 ">20 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-08.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye <span class="color-redes">redes sociales</span></p>
+                    <p class="text-uppercase color-tarjet w600 h-1">No permite compartición de datos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
+      <!-- Slider Planes 1 -->
+
+      <!-- Slider Planes 2-->
+      <div id="planes_dos">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
+                  <span class="tarjet-text2 w900 style-text p-3">SPOT  250</span>
+                  <div>
+                  {{--  <div class="title"> original de arriba  --}}
+                    <img src="{{asset('images/Paquetes-21.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan2 style-text w500 text-center style-text w900 ">MEGAS*</h3>
+                        <h3 class="texto-secundarioPlan2 style-text w500 text-center style-text W700">por <span class="style-text w900 ">30 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan2">20,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan2">20,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB2 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-24.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <!-- <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compartición de datos*</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
+                  <span class="tarjet-text2 w900 style-text p-3">SPOT  500</span>
+                  <div>
+                  {{--  <div class="title"> original de arriba  --}}
+                    <img src="{{asset('images/Paquetes-19.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan2 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan2 style-text w500 text-center style-text W700">por <span class="style-text w900 ">7 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan2">5,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan2">5,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB2 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-24.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <!-- <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compartición de datos*</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
+                  <span class="tarjet-text2 w900 style-text p-3">SPOT  70</span>
+                  <div>
+                  {{--  <div class="title"> original de arriba  --}}
+                    <img src="{{asset('images/Paquetes-19.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan2 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan2 style-text w500 text-center style-text W700">por <span class="style-text w900 ">7 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan2">5,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan2">5,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB2 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-24.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <!-- <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compartición de datos*</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
+                  <span class="tarjet-text2 w900 style-text p-3">SPOT  150</span>
+                  <div>
+                  {{--  <div class="title"> original de arriba  --}}
+                    <img src="{{asset('images/Paquetes-20.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan2 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan2 style-text w500 text-center style-text W700">por <span class="style-text w900 ">30 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB2 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-25.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet2 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
+                  <span class="tarjet-text2 w900 style-text p-3">SPOT  200</span>
+                  <div>
+                  {{--  <div class="title"> original de arriba  --}}
+                    <img src="{{asset('images/Paquetes-21.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan2 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan2 style-text w500 text-center style-text W700">por <span class="style-text w900 ">30 DÍAS</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan2">20,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan2">20,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB2 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-26.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet2 w600">No permite compartición de datos*</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Slider Planes 2 -->
+
+      <!-- Slider Planes 3-->
+      <div id="planes_tres">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-13.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 8000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-10.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-15.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 20000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-17.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h-1 p-2 color-tarjet3 w600">No permite compartición de datos*</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">HOT-SPOT  12M 20000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <ul class="feature-list">
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000 MB</li>
+                    <li class="style-text w900 w500 texto-secundarioPlan3">20,000* <span class="h07">MB velocidad reducida</span></li>
+                  </ul>
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-18.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-13.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="col-lg-9 col-md-6 p-5">
+                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
+                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
+                  <div class="title">
+                    <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
+                  </div>
+    
+                  <div class="price  d-flex flex-row">
+                      <div class="col-sm tarjeta-paquete">
+                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
+                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
+                      </div>
+                  </div>
+    
+                  <hr class="hr-basico">
+    
+                  <div class="action-button">
+                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
+                  </div>
+    
+                  <div class="mt-7">
+                    <img src="{{asset('images/Paquetes-13.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Slider Planes 3 -->
 
       <hr class="hr-line mt-n2">
 
@@ -813,6 +1222,16 @@
     </div>
   </section>
   
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 
   <script>
 
