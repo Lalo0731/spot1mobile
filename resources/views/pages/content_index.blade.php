@@ -545,7 +545,7 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9 p-5 presp-2">
                 <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
                   <span class="tarjet-text w900 style-text p-3">SPOT 100</span>
                   <div class="title">
@@ -574,7 +574,7 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9 p-5 presp-2">
                 <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
                   <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 10D</span>
                   <div class="title">
@@ -604,7 +604,7 @@
             </div>
             
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9 p-5 presp-2">
                 <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
                   <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 20D</span>
                   <div class="title">
@@ -643,8 +643,8 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             
-            <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+            <div class="swiper-slide w-responTarj">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  250</span>
                   <div>
@@ -671,15 +671,15 @@
                   </div>
     
                   <div class="mt-7">
-                    <img src="{{asset('images/Paquetes-24.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <img src="{{asset('images/Paquetes-27.png')}}" alt="Imagen4" class="img-precio1 w-75">
                     <!-- <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compartición de datos*</p> -->
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+            <div class="swiper-slide w-responTarj">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  500</span>
                   <div>
@@ -706,15 +706,15 @@
                   </div>
     
                   <div class="mt-7">
-                    <img src="{{asset('images/Paquetes-24.png')}}" alt="Imagen4" class="img-precio1 w-75">
+                    <img src="{{asset('images/Paquetes-23.png')}}" alt="Imagen4" class="img-precio1 w-75">
                     <!-- <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compartición de datos*</p> -->
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+            <div class="swiper-slide w-responTarj">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  70</span>
                   <div>
@@ -748,8 +748,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+            <div class="swiper-slide w-responTarj">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  150</span>
                   <div>
@@ -778,8 +778,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+            <div class="swiper-slide w-responTarj">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  200</span>
                   <div>
@@ -813,6 +813,8 @@
               </div>
             </div>
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> 
           <div class="swiper-pagination"></div>
         </div>
       </div>
@@ -822,8 +824,9 @@
       <div id="planes_tres">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
+
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
                   <div class="title">
@@ -852,7 +855,7 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 8000</span>
                   <div class="title">
@@ -881,7 +884,7 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 20000</span>
                   <div class="title">
@@ -915,7 +918,7 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">HOT-SPOT  12M 20000</span>
                   <div class="title">
@@ -949,7 +952,7 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
                   <div class="title">
@@ -978,7 +981,7 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9 col-md-6 p-5">
+              <div class="col-lg-9  p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
                   <div class="title">
@@ -1005,8 +1008,10 @@
                 </div>
               </div>
             </div>
-
+            
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> 
           <div class="swiper-pagination"></div>
         </div>
       </div>
@@ -1224,11 +1229,30 @@
   
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 10,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        575: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        // 767: {
+        //   slidesPerView: 3,
+        //   spaceBetween: 1,
+        // },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 10
+        },
+       
       },
     });
   </script>
