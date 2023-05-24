@@ -111,8 +111,8 @@ https://templatemo.com/tm-573-eduwell
                 {{--  <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600">Paquetes</a></li>  --}}
                 {{--  <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600">Pago mensualidad</a></li>  --}}
                 <li><p class="text-white style-text w600"><i class="fa-solid fa-envelope p-2"></i>E-mail: soporte@spot1mobile.com</p></li>
-                <li><p class="text-white style-text w600"><i class="fa-solid fa-mobile p-2"></i>Teléfono: 800 000 0990 o +52 961 876 4758</p></li>
-                <li><p class="text-white style-text w600"><i class="fa-brands fa-square-whatsapp p-2"></i>Whatsapp: 800 000 0990 o +52 961 876 4758</p></li>
+                <li><p class="text-white style-text w600"><i class="fa-solid fa-mobile p-2"></i>Teléfono: 614 399 00 92</p></li>
+                <!-- <li><p class="text-white style-text w600"><i class="fa-brands fa-square-whatsapp p-2"></i>Whatsapp: 800 000 0990 o +52 961 876 4758</p></li> -->
                 <li><p class="text-white style-text w600"><i class="fa-solid fa-map-location p-2"></i>C. José María Bear Alva 2514 col. Barrio de Londres Chihuahua, Chihuahua. C.P. 31060</p></li>
             </ul>
           </div>

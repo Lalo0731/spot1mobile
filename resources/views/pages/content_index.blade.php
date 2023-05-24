@@ -222,9 +222,9 @@
           </div>
           <div class="ml-5 bg-light w-25 b-rounded mt-3 h-4" >
             <div class="mt-3 text-center">
-          <button type="button" class="btn btn-light color-tarje style-text w900 btn-hover text-capitalize nav-item btn-planes activeTarj" onclick="planesUno();">Promoción</button>
-          <button type="button" class="btn btn-light color-tarje style-text w900 text-capitalize text-capitalize btn-planes" onclick="planesDos();">Prepago</button>
-          <button type="button" class="btn btn-light color-tarje style-text w900 text-capitalize text-capitalize btn-planes" onclick="planesTres();">Pago Anticipado</button>
+          <button type="button" class="btn color-tarje style-text w900 btn-hover text-capitalize nav-item btn-planes activeTarj" onclick="planesUno();">Promoción</button>
+          <button type="button" class="btn color-tarje style-text w900 text-capitalize text-capitalize btn-planes" onclick="planesDos();">Prepago</button>
+          <button type="button" class="btn color-tarje style-text w900 text-capitalize text-capitalize btn-planes" onclick="planesTres();">Pago Anticipado</button>
           </div>
           </div>
         </div>
