@@ -2613,7 +2613,8 @@ body {
     display: inline-flex!important;
   }
   .presp-2 {
-    padding: 6rem!important;
+    /* padding: 6rem!important; */
+    padding: 3rem!important;
   }
   .section-heading__text {
     margin-left: 1rem!important;
@@ -2623,5 +2624,8 @@ body {
   }
   .h-4 {
     height: 11rem!important;
+  }
+  .section-heading h2 {
+    font-size: 37px;
   }
 }
