@@ -1762,6 +1762,9 @@ body {
   .mt-14 {
     top: 15rem!important;
   }
+  .pricing-table .title {
+    margin-bottom: 3px!important;
+  }
 }
 
 @media (max-width: 1399px) {
@@ -1777,6 +1780,18 @@ body {
   }
   .w-25{
     width: 25%;
+  }
+  .mt-6 {
+    margin-top: 5rem;
+  }
+  .pd-1{
+    padding: 1rem!important;
+  }
+  .pricing-table .title {
+    margin-bottom: 3px!important;
+  }
+  .mt-n5{
+    margin-top: -5rem!important;
   }
 }
 
@@ -1802,6 +1817,18 @@ body {
   }
   .mt-n1{
     margin-top: -1rem;
+  }
+  .mt-6 {
+    margin-top: 5rem;
+  }
+  .pd-1{
+    padding: 1rem!important;
+  }
+  .pricing-table .title {
+    margin-bottom: 3px!important;
+  }
+  .mt-n5{
+    margin-top: -5rem!important;
   }
 
 }
@@ -1856,6 +1883,15 @@ body {
   }
   .mt-6 {
     margin-top: 5rem;
+  }
+  .pd-1{
+    padding: 1rem!important;
+  }
+  .pricing-table .title {
+    margin-bottom: 3px!important;
+  }
+  .mt-n5{
+    margin-top: -5rem!important;
   }
 }
 
@@ -2157,7 +2193,7 @@ body {
     margin-top: 5rem;
   }
   .tarjeta-paquete{
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
     /* margin-left: 0rem!important; */
   }
   .mes-paquete{
@@ -2476,6 +2512,9 @@ body {
     margin-top: -14rem!important;
     width: 68%!important;
   }
+  .pricing-table .title {
+    margin-bottom: -4px!important;
+  }
 
 }
 
@@ -2516,7 +2555,22 @@ body {
     margin-top: -14rem!important;
     width: 68%!important;
   }
-  /* .w-responTarj{
-    width: 475px!important;
-  } */
+  .pricing-table .title {
+    margin-bottom: -14px!important;
+  }
+  .tarjet-text1 {
+    font-size: 1.2rem!important;
+  }  
+}
+
+@media (max-width: 574.98px) {
+  .swiper-slide img {
+    width: 66%!important;
+  }
+  .d-flex {
+    display: inline-flex!important;
+  }
+  .presp-2 {
+    padding: 6rem!important;
+  }
 }

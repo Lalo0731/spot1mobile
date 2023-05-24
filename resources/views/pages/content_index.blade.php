@@ -545,11 +545,11 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="col-lg-9 p-5 presp-2">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
                   <span class="tarjet-text w900 style-text p-3">SPOT 100</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-03.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-03.png')}}" alt="Imagen4" class="img-precio1 mt-n5">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -567,18 +567,18 @@
     
                   <div class="mt-7">
                     <img src="{{asset('images/Paquetes-06.png')}}" alt="Imagen4" class="img-precio1 w-75">
-                    <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye compartición de datos*</p>
+                    <p class="text-uppercase h5 p-2 color-tarjet w600 mt-n2">Incluye compartición de datos*</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9 p-5 presp-2">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
                   <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 10D</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-04.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-04.png')}}" alt="Imagen4" class="img-precio1 mt-n5">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -596,19 +596,19 @@
     
                   <div class="mt-7">
                     <img src="{{asset('images/Paquetes-07.png')}}" alt="Imagen4" class="img-precio1 w-75">
-                    <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye <span class="color-redes">redes sociales</span></p>
-                    <p class="text-uppercase color-tarjet w600 h-1">No permite compartición de datos</p>
+                    <p class="text-uppercase h5 p-2 color-tarjet w600 mt-n2">Incluye <span class="color-redes">redes sociales</span></p>
+                    <p class="text-uppercase color-tarjet w600 h-1 mt-n1">No permite compartición de datos</p>
                   </div>
                 </div>
               </div>
             </div>
             
             <div class="swiper-slide">
-              <div class="col-lg-9 p-5 presp-2">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shad" style="position:relative">
                   <span class="tarjet-text1 w900 style-text p-3">SPOT REDES 20D</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-05.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-05.png')}}" alt="Imagen4" class="img-precio1 mt-n5">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -626,13 +626,15 @@
     
                   <div class="mt-7">
                     <img src="{{asset('images/Paquetes-08.png')}}" alt="Imagen4" class="img-precio1 w-75">
-                    <p class="text-uppercase h5 p-2 color-tarjet w600">Incluye <span class="color-redes">redes sociales</span></p>
-                    <p class="text-uppercase color-tarjet w600 h-1">No permite compartición de datos</p>
+                    <p class="text-uppercase h5 p-2 color-tarjet w600 mt-n2">Incluye <span class="color-redes">redes sociales</span></p>
+                    <p class="text-uppercase color-tarjet w600 h-1 mt-n1">No permite compartición de datos</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="swiper-button-next d-xl-none "></div>
+          <div class="swiper-button-prev d-xl-none "></div> 
           <div class="swiper-pagination"></div>
         </div>
       </div>
@@ -643,8 +645,8 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             
-            <div class="swiper-slide w-responTarj">
-              <div class="col-lg-9  p-5">
+            <div class="swiper-slide">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  250</span>
                   <div>
@@ -678,8 +680,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide w-responTarj">
-              <div class="col-lg-9  p-5">
+            <div class="swiper-slide">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  500</span>
                   <div>
@@ -713,8 +715,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide w-responTarj">
-              <div class="col-lg-9  p-5">
+            <div class="swiper-slide">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  70</span>
                   <div>
@@ -748,8 +750,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide w-responTarj">
-              <div class="col-lg-9  p-5">
+            <div class="swiper-slide">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  150</span>
                   <div>
@@ -778,8 +780,8 @@
               </div>
             </div>
 
-            <div class="swiper-slide w-responTarj">
-              <div class="col-lg-9  p-5">
+            <div class="swiper-slide">
+              <div class="col-lg-9 p-5 presp-2 pd-1">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan2" style="position:relative">
                   <span class="tarjet-text2 w900 style-text p-3">SPOT  200</span>
                   <div>
@@ -826,11 +828,11 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
+              <div class="col-lg-9 presp-2 pd-1 p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT 3M</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1 mt-n5">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -860,11 +862,11 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
+              <div class="col-lg-9 presp-2 pd-1 p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1 mt-n5">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -894,11 +896,11 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
+              <div class="col-lg-9 presp-2 pd-1 p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1 mt-n5">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -928,11 +930,11 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
+              <div class="col-lg-9 presp-2 pd-1 p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1 ">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -957,11 +959,11 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
+              <div class="col-lg-9 presp-2 pd-1 p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 8000</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-10.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-10.png')}}" alt="Imagen4" class="img-precio1 ">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -986,11 +988,11 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
+              <div class="col-lg-9 presp-2 pd-1 p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 20000</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1 ">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -1020,11 +1022,11 @@
             </div>
 
             <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
+              <div class="col-lg-9 presp-2 pd-1 p-5">
                 <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
                   <span class="tarjet-text3 w900 style-text p-3">HOT-SPOT  12M 20000</span>
                   <div class="title">
-                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1">
+                    <img src="{{asset('images/Paquetes-11.png')}}" alt="Imagen4" class="img-precio1 mt-n5">
                   </div>
     
                   <div class="price  d-flex flex-row">
@@ -1047,64 +1049,6 @@
     
                   <div class="mt-7">
                     <img src="{{asset('images/Paquetes-18.png')}}" alt="Imagen4" class="img-precio1 w-75">
-                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
-                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
-                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
-                  <div class="title">
-                    <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
-                  </div>
-    
-                  <div class="price  d-flex flex-row">
-                      <div class="col-sm tarjeta-paquete">
-                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
-                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
-                      </div>
-                  </div>
-    
-                  <hr class="hr-basico">
-    
-                  <div class="action-button">
-                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
-                  </div>
-    
-                  <div class="mt-7">
-                    <img src="{{asset('images/Paquetes-13.png')}}" alt="Imagen4" class="img-precio1 w-75">
-                    <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="col-lg-9  p-5">
-                <div class="pricing-table text-center feature_item font-color box-shadPlan3" style="position:relative">
-                  <span class="tarjet-text3 w900 style-text p-3">SPOT  12M 5000</span>
-                  <div class="title">
-                    <img src="{{asset('images/Paquetes-09.png')}}" alt="Imagen4" class="img-precio1">
-                  </div>
-    
-                  <div class="price  d-flex flex-row">
-                      <div class="col-sm tarjeta-paquete">
-                        <h3 class="texto-principalPlan3 style-text w500 text-center style-text w900 ">MEGAS</h3>
-                        <h3 class="texto-secundarioPlan3 style-text w500 text-center style-text W700">PAQ <span class="style-text w900 ">12 MESES</span> </h3>
-                      </div>
-                  </div>
-    
-                  <hr class="hr-basico">
-    
-                  <div class="action-button">
-                    <button href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB3 style-text w800">A TAN SOLO:</button>
-                  </div>
-    
-                  <div class="mt-7">
-                    <img src="{{asset('images/Paquetes-13.png')}}" alt="Imagen4" class="img-precio1 w-75">
                     <p class="text-uppercase h5 p-2 color-tarjet3 w600">Incluye compartición de datos*</p>
                   </div>
                 </div>
@@ -1365,7 +1309,7 @@
     function planesUno(){
       $('#planes_uno').show(1000);
       $('#planes_dos').hide(1000);
-      $('planes_tres').hide(1000);
+      $('#planes_tres').hide(1000);
     }
 
     function planesDos(){
