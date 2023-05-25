@@ -12,9 +12,10 @@ class ConektaPayment{
 
     function __construct(){
         // KEY de Prueba
-        Conekta::setApiKey(env('CONECTA_TEST_KEY'));
+        //Conekta::setApiKey(env('CONECTA_TEST_KEY'));
+
         // KEY de Producción
-        //Conekta::setApiKey(env('CONECTA_KEY'));
+        Conekta::setApiKey(env('CONECTA_PRIVATE_KEY'));
         Conekta::setApiVersion('2.0.0');
     }
 

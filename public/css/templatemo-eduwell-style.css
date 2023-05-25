@@ -2625,7 +2625,17 @@ body {
   .h-4 {
     height: 11rem!important;
   }
-  .section-heading h2 {
+
+  /* .section-heading h2 {
     font-size: 37px;
+  } */
+  .ml-5 {
+    margin-left: 1rem!important;
+  }
+  .section-heading h2 {
+    font-size: 25px!important;
+  }
+  .w-25 {
+    width: 33% !important;
   }
 }

@@ -103,7 +103,7 @@ https://templatemo.com/tm-573-eduwell
               </li>
             </ul>
           </div>  --}}
-          <div class="col-md-3 col-lg-4 pl-lg-5 mb-4 mb-md-0 col p-4 col-md-foot-3">
+          <div class="col-md-3 col-lg-4 pl-lg-5 mb-4 mb-md-0 col p-4 col-md-foot-3 d-none d-sm-block">
             <h2 class="footer-heading text-uppercase h4 text-white style-text w700">Contáctanos</h2>
             <hr class="hr-enlaces">
             <ul class="list-unstyled">
@@ -116,7 +116,8 @@ https://templatemo.com/tm-573-eduwell
                 <li><p class="text-white style-text w600"><i class="fa-solid fa-map-location p-2"></i>C. José María Bear Alva 2514 col. Barrio de Londres Chihuahua, Chihuahua. C.P. 31060</p></li>
             </ul>
           </div>
-          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5 col-m-foot-6">
+
+          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5 col-m-foot-6 d-none d-sm-block">
             <ul class="list-unstyled">
               <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Inicio</a></li>
               <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Recargas</a></li>
@@ -124,7 +125,7 @@ https://templatemo.com/tm-573-eduwell
             </ul>
           </div>
 
-          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5 col-m-foot-6">
+          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4 mt-5 col-m-foot-6 d-none d-sm-block">
             <ul class="list-unstyled">
               <li><a href="{!! URL::to('legales')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Legales</a></li>
               <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Cobertura</a></li>
@@ -134,6 +135,40 @@ https://templatemo.com/tm-573-eduwell
           </div>
         </div>
         </div>
+
+          <!-- Response -->
+          <div class=" p-4 d-block d-sm-none">
+            <h2 class="footer-heading text-uppercase h4 text-white style-text w700">Contáctanos</h2>
+            <hr class="hr-enlaces">
+            <ul class="list-unstyled">
+                {{--  <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white style-text w600">Inicio</a></li>  --}}
+                {{--  <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600">Paquetes</a></li>  --}}
+                {{--  <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600">Pago mensualidad</a></li>  --}}
+                <li><p class="text-white style-text w600"><i class="fa-solid fa-envelope p-2"></i>E-mail: soporte@spot1mobile.com</p></li>
+                <li><p class="text-white style-text w600"><i class="fa-solid fa-mobile p-2"></i>Teléfono: 614 399 00 92</p></li>
+                <!-- <li><p class="text-white style-text w600"><i class="fa-brands fa-square-whatsapp p-2"></i>Whatsapp: 800 000 0990 o +52 961 876 4758</p></li> -->
+                <li><p class="text-white style-text w600"><i class="fa-solid fa-map-location p-2"></i>C. José María Bear Alva 2514 col. Barrio de Londres Chihuahua, Chihuahua. C.P. 31060</p></li>
+            </ul>
+          </div>
+
+          <div class="p-4 d-sm-none">
+            <ul class="list-unstyled">
+              <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Inicio</a></li>
+              <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Recargas</a></li>
+              <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Paquetes</a></li>
+            </ul>
+          </div>
+
+          <div class="p-4 d-sm-none mb-5">
+            <ul class="list-unstyled">
+              <li><a href="{!! URL::to('legales')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Legales</a></li>
+              <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Cobertura</a></li>
+              <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Aviso de Privacidad</a></li>
+              <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600"><i class="fa-solid fa-arrow-right p-2"></i>Términos y Condiciones</a></li>
+            </ul>
+          </div>
+          <!-- Response -->
+
         <!-- <div class="col-lg-12">
           <p class="copyright">Copyright © 2022 EduWell Co., Ltd. All Rights Reserved.
   
