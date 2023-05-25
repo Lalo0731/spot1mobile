@@ -12,9 +12,9 @@ class StripeController extends Controller
  
     public function paymentStripe(Request $request){    
         //produccion
-        Stripe::setApiKey(env('STRIPR_SECRET_KEY'));  
+        //Stripe::setApiKey(env('STRIPR_SECRET_KEY'));  
         //test      
-        //Stripe::setApiKey(env('STRIPE_PUBLIC_KEY'));        
+        Stripe::setApiKey(env('STRIPE_PUBLIC_KEY'));        
 
         $amount = $request->amount;
         $offer_id = $request->offer_id;
