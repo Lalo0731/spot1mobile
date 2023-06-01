@@ -10,20 +10,13 @@
             <h2 class="mb-3 color-text-planes style-text w500">¡Tenemos los mejores planes!</h2>
             <h2><span class="texto-planes style-text w900">¡Obten el que más te guste!</span></h2>
           </div>
-          <div class="ml-5 bg-light w-25 b-rounded mt-3 h-4" >
-            <div class="mt-3 text-center">
-          <button type="button" class="btn color-tarje style-text w900 btn-hover text-capitalize nav-item btn-planes activeTarj" onclick="planesUno();">Promoción</button>
-          <button type="button" class="btn color-tarje style-text w900 text-capitalize text-capitalize btn-planes" onclick="planesDos();">Prepago</button>
-          <button type="button" class="btn color-tarje style-text w900 text-capitalize text-capitalize btn-planes" onclick="planesTres();">Pago Anticipado</button>
-          </div>
-          </div>
         </div>
       </div>
       
       <hr class="hr-line mt-n2">
       
       <!-- Slider Planes 1-->
-      <!-- <div id="planes_uno"> -->
+        <h3 class="text-center p-4 color-text-planes style-text w500">Conoce y disfruta <span class="style-text w900"> nuestras mejores promociones </span></h3>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -119,11 +112,10 @@
           <div class="swiper-button-prev d-xl-none "></div> 
           <div class="swiper-pagination"></div>
         </div>
-      <!-- </div> -->
       <!-- Slider Planes 1 -->
 
       <!-- Slider Planes 2-->
-      <!-- <div id="planes_dos"> -->
+        <h3 class="text-center p-4 color-text-planes style-text w500">Contrata por medio de <span class="style-text w900">pagos anticipados</span></h3>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             
@@ -301,11 +293,10 @@
           <div class="swiper-button-prev"></div> 
           <div class="swiper-pagination"></div>
         </div>
-      <!-- </div> -->
       <!-- Slider Planes 2 -->
 
       <!-- Slider Planes 3-->
-      <!-- <div id="planes_tres"> -->
+        <h3 class="text-center p-4 color-text-planes style-text w500">¡Tenemos los mejores planes! <span class="style-text w900">¡Obtenen el que más te guste!<span></h3>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
 
@@ -543,7 +534,6 @@
           <div class="swiper-button-prev"></div> 
           <div class="swiper-pagination"></div>
         </div>
-      <!-- </div> -->
       <!-- Slider Planes 3 -->
 
       <hr class="hr-line mt-n2">
