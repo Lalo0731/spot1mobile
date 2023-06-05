@@ -1315,6 +1315,14 @@ button.close {
   object-fit: cover;
 }
 
+.mapaAltan{
+  width: 100%;
+  height: auto;
+  top: 0%;
+  bottom: 0%;
+  padding-bottom: 60%;
+  z-index: 1;
+}
 
 /*## ESTILOS DE LALO FIN##*/
 

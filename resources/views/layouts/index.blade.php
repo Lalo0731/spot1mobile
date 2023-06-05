@@ -34,6 +34,10 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
+    {{--  mapa  --}}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    {{--  mapa  --}}
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- Additional CSS Files -->
@@ -217,6 +221,10 @@ https://templatemo.com/tm-573-eduwell
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
   
   <!-- Scripts -->
+
+  {{--  Mapa  --}}
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  {{--  Mapa  --}}
 
   <!-- Bootstrap core JavaScript -->
 

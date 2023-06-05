@@ -33,6 +33,10 @@ Route::get('/planes', function(){
     return View::make('pages.planes');
 });
 
+Route::get('/mapa', function(){
+    return View::make('pages.map');
+});
+
 
 Route::post('/recargas', 'RechargeController@recharge')->name('recharges');
 Route::get('/references', 'OpenPayController@references')->name('references');
