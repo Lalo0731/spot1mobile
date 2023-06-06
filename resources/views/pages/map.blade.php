@@ -1,7 +1,8 @@
 @extends('layouts.index')
 @section('content')
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+{{--  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />  --}}
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <section class="pricing bg-shape color-barra-principal">
     <div class="container">
       <div class="row">
@@ -31,21 +32,21 @@
       </div>
     </div>
   </section>
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  {{--  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>  --}}
   {{--  <script src="{{asset('js/service.js')}}"></script>  --}}
   <script>
 
-    var map = L.map('mapaAltan');
+    const map = L.map('mapaAltan');
 
-    /*var wmsLayer = L.tileLayer.wms('https://geomap.altanredes.com/geoserver/web_altanredes_geoaltan/ows?SERVICE=WMS?&authkey=781c7a49', {
-        layers: 'Cobertura_Actual, Cobertura_20HBB, Cobertura_10HBB, Cobertura_5HBB,TOPO-OSM-WMS', 
+    var wmsLayer = L.tileLayer.wms('https://geomap.altanredes.com/geoserver/web_altanredes_geoaltan/ows?SERVICE=WMS?&authkey=781c7a49', {
+
+        layers: 'Cobertura_Actual, Cobertura_20HBB, Cobertura_10HBB, Cobertura_5HBB', 
         format: 'image/png', 
         transparent: true,
-        tiled: true
-    }).addTo(map);*/
-
-    var topographyAndPlaces = L.tileLayer.wms('http://ows.mundialis.de/services/service?', {
-        layers: 'TOPO-WMS,OSM-Overlay-WMS'
+        tiled: true,
+        attribution: "ALTAN WMS. Cedido por ALTAN REDES"
     }).addTo(map);
 
 
